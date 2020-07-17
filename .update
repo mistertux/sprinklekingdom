@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Updating pacman repo database"
+repo-add sprinklekingdom.db.tar.gz *.pkg.tar.zst
+
